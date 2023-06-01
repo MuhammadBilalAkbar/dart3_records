@@ -53,6 +53,7 @@ record = (a: 123, b: true);
 ```
 
 3. **Equality**
+
    Two records with named fields with different names have different types. They are not equal:
 
 ```dart
