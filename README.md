@@ -17,6 +17,7 @@ in `lib/`, and example unit test in `test/`.
 ## Record Syntax
 
 1. **Syntax**
+
    Records expressions are separated by comma lists of named or positional fields, enclosed in
    parenthesis:
 
