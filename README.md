@@ -5,11 +5,11 @@ in `lib/`, and example unit test in `test/`.
 
 ##### Contents
 
-[Record syntax](#Record-syntax)
-[Record fields](#Record-fields)
-[Record types](#Record-types)
-[Record equality](#Record-equality)
-[Multiple returns](#Multiple-returns)
+[Record syntax](#Record-syntax)<br/>
+[Record fields](#Record-fields)<br/>
+[Record types](#Record-types)<br/>
+[Record equality](#Record-equality)<br/>
+[Multiple returns](#Multiple-returns)<br/>
 
 # Records:
 
