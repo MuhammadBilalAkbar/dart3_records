@@ -3,6 +3,14 @@ in `lib/`, and example unit test in `test/`.
 
 # dart3_records
 
+##### Contents
+
+- [Record syntax](#Record syntax)
+- [Record fields](#Record fields)
+- [Record types](#Record types)
+- [Record equality](#Record equality)
+- [Multiple returns](#Multiple returns)
+
 # Records:
 
 - Records are an anonymous, immutable(Records only have getters and don't have setters), merge type(
@@ -14,7 +22,7 @@ in `lib/`, and example unit test in `test/`.
 - Records are real values; you can store them in variables, nest them, pass them to and from
   functions, and store them in data structures such as lists, maps, and sets.
 
-## Record Syntax
+## Record syntax
 
 1. **Syntax**
 
