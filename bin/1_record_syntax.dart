@@ -12,10 +12,11 @@ void main() {
   print(namedRecord);
 
   /// positional and named mix Record
-  var record = ('first', a: 2, b: true, 'last');
+  final record = ('first', a: 2, b: true, 'last');
   print(record); // positional parameters are printed first and then
   // named parameters are printed
 
+  /// Two records with named fields with different names have different types.
   /// In a record type annotation, you can also name the positional fields. They don’t affect the record’s type.
   ({int a, int b}) recordAB = (a: 1, b: 2);
   ({int x, int y}) recordXY = (x: 3, y: 4);
