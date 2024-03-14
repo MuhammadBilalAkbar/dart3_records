@@ -8,7 +8,7 @@ void main() {
 
 //   final info = userInfo(json);
 //   final name = info.$1;
-//   final age  = info.$2;asdfasd
+//   final age  = info.$2;
 
   /// Destructures using a record pattern:
   final (name, age) = userInfo(json);
