@@ -1,29 +1,23 @@
 /// Records expressions are comma lists of named or positional fields, enclosed in parentheses.
 
 void main() {
+  final record = ('Hello World', 1, 8.0, true, false);
+  print(record);
   /// positionalRecord
   (String, int) positionalRecord;
   positionalRecord = ('A string', 123);
-  print(positionalRecord);
 
   /// namedRecord
   ({int a, bool b}) namedRecord;
   namedRecord = (a: 123, b: true);
-  print(namedRecord);
 
   /// positional and named mix Record
-  final record = ('first', a: 2, b: true, 'last');
-  print(record); // positional parameters are printed first and then
+  // positional parameters are printed first and then
   // named parameters are printed
+  final mixedRecords1 = ('first', a: 2, b: true, 'last');
+  (int a, {int b, bool c}) mixedRecords2;
+  mixedRecords2 = (1, b: 123, c: true);
 
-  /// Two records with named fields with different names have different types.
-  /// In a record type annotation, you can also name the positional fields. They don’t affect the record’s type.
-  ({int a, int b}) recordAB = (a: 1, b: 2);
-  ({int x, int y}) recordXY = (x: 3, y: 4);
-  // recordAB = recordXY; // Compile error! These records don't have the same type.
-
-  (int a, int b) recordA = (1, 2);
-  (int x, int y) recordB = (3, 4);
-  recordA = recordB; // OK.
-  print(recordA);
+  print(mixedRecords1);
+  print(mixedRecords2);
 }
